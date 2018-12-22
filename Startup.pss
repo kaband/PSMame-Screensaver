@@ -1,0 +1,84 @@
+﻿<File version="3.1">
+  <Code><![CDATA[#Define a Param block to use custom parameters in the project
+#Param ($CustomParameter)
+
+function Main
+{
+<#
+    .SYNOPSIS
+        The Main function starts the project application.
+    
+    .PARAMETER Commandline
+        $Commandline contains the complete argument string passed to the script packager executable.
+    
+    .NOTES
+        Use this function to initialize your script and to call GUI forms.
+		
+    .NOTES
+        To get the console output in the Packager (Forms Engine) use: 
+		$ConsoleOutput (Type: System.Collections.ArrayList)
+#>
+	Param ([String]$Commandline)
+	
+	#--------------------------------------------------------------------------
+	#TODO: Add initialization script here (Load modules and check requirements)	
+	#--------------------------------------------------------------------------
+	<#
+	$config = Get-Content mame_scr.ini
+	$cfgattributes = @("mamepath", "rompath", "romlistpath", "configpath", "snapshotpath", "nvrampath", "arguments", "runtime", "volume")
+	
+	foreach ($line in $config)
+	{
+		foreach ($attribute in $cfgattributes)
+		{
+			$regex = "^\s{0,}($attribute)\s{0,}=\s{0,}(.*)\s{0,}"
+			if ($line -match $regex)
+			{
+				switch ($Matches[1])
+				{
+					"mamepath" {
+						$mamepath = $Matches[2]
+					}
+					"rompath" {
+						$rompath = $Matches[2]
+					}
+					"romlistpath" {
+						$romlistpath = $Matches[2]
+					}
+					"configpath" {
+						$configpath = $Matches[2]
+					}
+					"snapshotpath" {
+						$snapshotpath = $Matches[2]
+					}
+					"nvrampath" {
+						$nvrampath = $Matches[2]
+					}
+					"arguments" {
+						$arguments = $Matches[2]
+					}
+					"runtime" {
+						$runtime = $Matches[2]
+					}
+					"volume" {
+						$volume = $Matches[2]
+					}
+				}
+				break
+			}
+		}
+	}
+	#>
+	
+
+	
+	if ((Show-MainForm_psf) -eq 'OK')
+	{
+		
+	}
+	
+	$script:ExitCode = 0 #Set the exit code for the Packager
+}
+
+]]></Code>
+</File>
