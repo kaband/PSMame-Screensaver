@@ -86,6 +86,8 @@ function Get-ini
 [string]$nvrampath = $null
 [int]$runtime = 120
 [int]$volume = 0
+[string]$sspath = "c:\Windows\System32\mame_scr.scr"
+[int]$sstimeout = 600
 
 if (Test-Path "c:\Windows\System32\mame_scr.ini")
 {
