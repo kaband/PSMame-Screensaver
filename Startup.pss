@@ -1,5 +1,15 @@
 ﻿<File version="3.1">
-  <Code><![CDATA[#Define a Param block to use custom parameters in the project
+  <Code><![CDATA[<#	
+	.NOTES
+	===========================================================================
+	 Created with:  		PowerShell Studio 2019 5.6.156
+	 Created by:			Justin Baker
+	 Filename:			Startup.pss
+	 Website:				https://github.com/kaband/Mame-Screensaver
+	===========================================================================
+#>
+
+#Define a Param block to use custom parameters in the project
 #Param ($CustomParameter)
 
 function Main
@@ -23,7 +33,7 @@ function Main
 	#--------------------------------------------------------------------------
 	#TODO: Add initialization script here (Load modules and check requirements)	
 	#--------------------------------------------------------------------------
-		
+
 	if ((Show-MainForm_psf) -eq 'OK')
 	{
 		

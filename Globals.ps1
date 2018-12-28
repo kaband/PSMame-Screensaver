@@ -1,4 +1,14 @@
-﻿#--------------------------------------------
+﻿<#	
+	.NOTES
+	===========================================================================
+	 Created with:  		PowerShell Studio 2019 5.6.156
+	 Created by:			Justin Baker
+	 Filename:			Globals.ps1
+	 Website:				https://github.com/kaband/Mame-Screensaver
+	===========================================================================
+#>
+
+#--------------------------------------------
 # Declare Global Variables and Functions here
 #--------------------------------------------
 
