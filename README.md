@@ -9,7 +9,7 @@ This is a screensaver which uses MAME to run roms in an attract mode fashion sel
 
 **Installation**
 * Download the zip file with the binaries inside.  
-  * mame_scr_scr - Screensaver file  
+  * mame_scr.scr - Screensaver file  
   * mamesscfg.exe - Configuration utility for screensaver  
   * mame_scr.ini - Configuration itself
 * Extract zip to directory of your choosing
