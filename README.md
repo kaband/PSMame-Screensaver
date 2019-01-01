@@ -18,9 +18,9 @@ This is a screensaver which uses MAME to run roms in an attract mode fashion sel
   * Should be launched as administrator in order to edit mame_scr.ini file copied into c:\windows\system32
   
 **Configuration Tab**  
- * Mame Path - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
- * Rom Path - Path to directory that contains rom files used by Mame.  ex. c:\mame\roms
- * RomPath List - Path to file that contains a list of rom names.  Should include file name. ex. c:\mame\romlist.txt  
+ * Mame Path* - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
+ * Rom Path* - Path to directory that contains rom files used by Mame.  ex. c:\mame\roms
+ * RomPath List* - Path to file that contains a list of rom names.  Should include file name. ex. c:\mame\romlist.txt  
    * mamesscfg.exe includes a button to generate the list
    * Gives you the ability to filter out certain roms by editing the list.  For example instead of using the generate list button from the mamesscfg.exe utility, Romlister could be used instead to make a curated list - https://www.waste.org/~winkles/ROMLister/
  * Config Path - Location of the MAME config files. ex. c:\mame\cfg
@@ -29,5 +29,6 @@ This is a screensaver which uses MAME to run roms in an attract mode fashion sel
  * Run Time - Amount of time in seconds to run ROM.
  * Volume - Volume of running ROM.
  * Arguments - Any additional arguments you want to pass to mame executable.  
+* = required
 
 **Screensaver Tab**
