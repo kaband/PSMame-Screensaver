@@ -31,9 +31,11 @@ This is a screensaver which uses MAME to run roms in an attract mode fashion sel
  * Arguments - Any additional arguments you want to pass to mame executable.
  * Save button - Click this button once your configuration is set to save your settings.
  * Load Defaults button - Resets all settings to default, but will not take effect until it is saved. 
+ * Load ini button - Will reload settings from .ini file
  
- \* = required
+   \* = required
 
 **Screensaver Tab**
  * Screensaver timeout - Amount of idle time in seconds before screensaver starts.
- * Setup Screensaver Button - Click this button once you are ready to enable the mame screensaver.  IEnables screensaver, sets mame screensaver as active screensaver and sets screensaver timeout value.
+ * Setup Screensaver Button - Click this button once you are ready to enable the mame screensaver as the default.
+   * Enables screensaver, sets mame screensaver as active screensaver and sets screensaver timeout value.
