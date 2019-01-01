@@ -39,3 +39,5 @@ This is a screensaver which uses MAME to run roms in an attract mode fashion sel
  * Screensaver timeout - Amount of idle time in seconds before screensaver starts.
  * Setup Screensaver Button - Click this button once you are ready to enable the mame screensaver as the default.
    * Enables screensaver, sets mame screensaver as active screensaver and sets screensaver timeout value.
+ * Remove Screensaver Button - Removes mame screensaver as default and sets blank screen as new default.
+ * [Generate Rom List Button] - Creates txt file list of rom names.  List is based of off rom path and saved to the rom list path directory.
