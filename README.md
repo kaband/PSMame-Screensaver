@@ -29,6 +29,6 @@ This is a screensaver which uses MAME to run roms in an attract mode fashion sel
  * Run Time - Amount of time in seconds to run ROM.
  * Volume - Volume of running ROM.
  * Arguments - Any additional arguments you want to pass to mame executable.  
-* = required
+\* = required
 
 **Screensaver Tab**
