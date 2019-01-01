@@ -28,8 +28,12 @@ This is a screensaver which uses MAME to run roms in an attract mode fashion sel
  * NVRAM Path - Location of the MAME NVRAM files. ex. c:\mame\nvram
  * Run Time - Amount of time in seconds to run ROM.
  * Volume - Volume of running ROM.
- * Arguments - Any additional arguments you want to pass to mame executable.  
+ * Arguments - Any additional arguments you want to pass to mame executable.
+ * Save button - Click this button once your configuration is set to save your settings.
+ * Load Defaults button - Resets all settings to default, but will not take effect until it is saved. 
  
  \* = required
 
 **Screensaver Tab**
+ * Screensaver timeout - Amount of idle time in seconds before screensaver starts.
+ * Setup Screensaver Button - Click this button once you are ready to enable the mame screensaver.  IEnables screensaver, sets mame screensaver as active screensaver and sets screensaver timeout value.
