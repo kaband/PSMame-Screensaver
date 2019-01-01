@@ -16,6 +16,9 @@ This is a screensaver which uses MAME to run roms in an attract mode fashion sel
 * Copy mame_scr.scr and mame_scr.ini to the c:\windows\system32 directory
 * Run the mamesscfg.exe file to launch the configuration utility - this will put your configuration settings into the .ini file
   * Should be launched as administrator in order to edit mame_scr.ini file copied into c:\windows\system32
+* Once configuration is set. Select Screensaver tab.
+* Set Screensaver Timeout value and click [Setup Screensaver] button
+* Done.  See details below to understand options.
   
 **Configuration Tab**  
  * Mame Path* - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
