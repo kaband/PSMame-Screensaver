@@ -87,76 +87,17 @@ function Get-ini
 	Return $cfg
 }
 
-# This function made possible by adam the automator - https://www.adamtheautomator.com/powershell-start-process/
-function Invoke-Process
+function Load-Defaults
 {
-	<#
-		.VERSION 1.4
-		.GUID b787dc5d-8d11-45e9-aeef-5cf3a1f690de
-		.AUTHOR Adam Bertram
-		.COMPANYNAME Adam the Automator, LLC
-		.TAGS Processes
-	#>
-	[CmdletBinding(SupportsShouldProcess)]
-	param
-	(
-		[Parameter(Mandatory)]
-		[ValidateNotNullOrEmpty()]
-		[string]$FilePath,
-		[Parameter()]
-		[ValidateNotNullOrEmpty()]
-		[string]$ArgumentList
-	)
-	
-	$ErrorActionPreference = 'Stop'
-	
-	try
-	{
-		$stdOutTempFile = "$env:TEMP\$((New-Guid).Guid)"
-		$stdErrTempFile = "$env:TEMP\$((New-Guid).Guid)"
-		
-		$startProcessParams = @{
-			FilePath			   = $FilePath
-			ArgumentList		   = $ArgumentList
-			RedirectStandardError  = $stdErrTempFile
-			RedirectStandardOutput = $stdOutTempFile
-			Wait				   = $true;
-			PassThru			   = $true;
-			NoNewWindow		       = $true;
-		}
-		if ($PSCmdlet.ShouldProcess("Process [$($FilePath)]", "Run with args: [$($ArgumentList)]"))
-		{
-			$cmd = Start-Process @startProcessParams
-			$cmdOutput = Get-Content -Path $stdOutTempFile -Raw
-			$cmdError = Get-Content -Path $stdErrTempFile -Raw
-			if ($cmd.ExitCode -ne 0)
-			{
-				if ($cmdError)
-				{
-					throw $cmdError.Trim()
-				}
-				if ($cmdOutput)
-				{
-					throw $cmdOutput.Trim()
-				}
-			}
-			else
-			{
-				if ([string]::IsNullOrEmpty($cmdOutput) -eq $false)
-				{
-					Write-Output -InputObject $cmdOutput
-				}
-			}
-		}
-	}
-	catch
-	{
-		$PSCmdlet.ThrowTerminatingError($_)
-	}
-	finally
-	{
-		Remove-Item -Path $stdOutTempFile, $stdErrTempFile -Force -ErrorAction Ignore
-	}
+	$textboxMamePath.Text = "c:\mame\mame64.exe"
+	$textboxROMPath.Text = "c:\mame\roms"
+	$textboxromlistpath.Text = "c:\mame\romlist.txt"
+	$textboxConfigPath.Text = "c:\mame\cfg"
+	$textboxsnapshotpath.Text = "c:\mame\snaps"
+	$textboxnvrampath.Text = "c:\mame\nvram"
+	$textboxMameArguments.Text = $null
+	$numericruntime.Value = 120
+	$numericVolume.Value = -32
 }
 
 [string]$mydir = Get-MyDir
@@ -171,15 +112,3 @@ function Invoke-Process
 [string]$sspath = "c:\Windows\System32\mame_scr.scr"
 [int]$sstimeout = 600
 
-if (Test-Path "c:\Windows\System32\mame_scr.ini")
-{
-	[string]$inifile = "c:\Windows\System32\mame_scr.ini"
-}
-elseif (Test-Path "$mydir\mame_scr.ini")
-{
-	[string]$inifile = "$mydir\mame_scr.ini"
-}
-else
-{
-	[string]$inifile = "c:\Windows\System32\mame_scr.ini"
-}
