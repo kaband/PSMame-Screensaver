@@ -5,5 +5,8 @@
     <Folder>mamesscfg</Folder>
     <Folder>mame_scr</Folder>
   </OpenFolders>
-  <OpenFiles />
+  <OpenFiles>
+    <File>mamesscfg\MainForm.psf</File>
+    <File>mamesscfg\Globals.ps1</File>
+  </OpenFiles>
 </ProjectState>

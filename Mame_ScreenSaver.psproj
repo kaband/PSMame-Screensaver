@@ -8,8 +8,8 @@
   </Folders>
   <Files>
     <File Build="0" Shared="False" ReferenceFunction="Invoke-Globals_ps1">mamesscfg\Globals.ps1</File>
-    <File Build="0" ReferenceFunction="Show-MainForm_psf">mamesscfg\MainForm.psf</File>
     <File Build="0" Shared="False" ReferenceFunction="Invoke-mame_scr_ps1">mame_scr\mame_scr.ps1</File>
+    <File Build="0" ReferenceFunction="Show-MainForm_psf">mamesscfg\MainForm.psf</File>
     <File Build="0">Startup.pss</File>
     <File Build="2">mame_scr\mame_scr.ini</File>
   </Files>
