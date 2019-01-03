@@ -38,6 +38,11 @@ function Get-MyDir
 
 function Get-ini
 {
+	param
+	(
+		[parameter(Mandatory = $true)]		
+		[string]$inifile
+	)
 	$config = Get-Content $inifile
 	$cfgattributes = @("mamepath", "rompath", "romlistpath", "configpath", "snapshotpath", "nvrampath", "arguments", "runtime", "volume")
 	$cfg = @{ }
@@ -107,6 +112,7 @@ function Load-Defaults
 [string]$configpath = $null
 [string]$snapshotpath = $null
 [string]$nvrampath = $null
+[string]$inifile = $null
 [int]$runtime = 120
 [int]$volume = 0
 [string]$sspath = "c:\Windows\System32\mame_scr.scr"
