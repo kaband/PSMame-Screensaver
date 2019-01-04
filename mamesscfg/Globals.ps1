@@ -100,7 +100,7 @@ function Load-Defaults
 	$textboxConfigPath.Text = "c:\mame\cfg"
 	$textboxsnapshotpath.Text = "c:\mame\snaps"
 	$textboxnvrampath.Text = "c:\mame\nvram"
-	$textboxMameArguments.Text = $null
+	$textboxArguments.Text = $null
 	$numericruntime.Value = 120
 	$numericVolume.Value = -32
 }
