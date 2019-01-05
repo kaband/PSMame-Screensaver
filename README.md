@@ -30,8 +30,8 @@ Mame-Screensaver is written in Powershell and then compiled to an .exe (.scr) wi
  * Mame Path* - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
  * Rom Path* - Path to directory that contains rom files used by Mame.  ex. c:\mame\roms
  * RomPath List* - Path to file that contains a list of rom names.  Should include file name. ex. c:\mame\romlist.txt  
-   * mamesscfg.exe includes a button to generate the list
-   * Gives you the ability to filter out certain roms by editing the list.  For example instead of using the generate list button from the mamesscfg.exe utility which will add all roms from your rom directory, Romlister could be used instead to make a curated list - https://www.waste.org/~winkles/ROMLister/
+   * mamesscfg.exe includes a button to generate the list.  The list consists of the files from the roms directory with the extension removed (ex. thisgame.zip becomes thisgame).  If you are using a merged set, it will only capture the primary game.
+   * I recommend using Romlister instead to generate your list of roms.  Export from romlister in csv format with only the name of the rom included. Use that file as your romlist source.  https://www.waste.org/~winkles/ROMLister/
  * Config Path - Location of the MAME config files. ex. c:\mame\cfg
  * Snapshot Path - Location of the MAME snapshots. ex. c:\mame\snapshots
  * NVRAM Path - Location of the MAME NVRAM files. ex. c:\mame\nvram
