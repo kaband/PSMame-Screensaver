@@ -52,3 +52,5 @@ Mame-Screensaver is written in Powershell and then compiled to an .exe (.scr) wi
  * [Remove Screensaver] Button - Removes mame screensaver as default and sets blank screen as new default.
  * [Generate Rom List] Button - Creates txt file list of rom names.  List is based of off rom path and saved to the rom list path directory.
 
+**Compiling**  
+Coming soon.
