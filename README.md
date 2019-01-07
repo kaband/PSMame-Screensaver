@@ -1,5 +1,6 @@
 # Mame-Screensaver
 This is a screensaver which uses MAME to run roms in an attract mode fashion.  A rom is selected at random, mame executes the rom and plays it for set a runtime.  Once the runtime is reached, mame exits and repeat!  
+  
 Mame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home mame cabinet.
  
 **Prerequisites**  
@@ -24,7 +25,7 @@ Mame-Screensaver is written in Powershell and then compiled to an .exe (.scr) wi
 
 **Usage**
  * When the screensaver is running, mame functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
- * In order to exit the screensaver the key mapped for exiting a mame will need to be used.  Escape is the default key for exiting mame.
+ * In order to exit the screensaver use the key mapped to exit mame.  Escape key is the default mapping to exit mame.
   
 **Configuration Tab**  
  * Mame Path* - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
