@@ -9,7 +9,6 @@
     <File>mamesscfg\MainForm.psf</File>
     <File>mamesscfg\Globals.ps1</File>
     <File>mame_scr\mame_scr.ini</File>
-    <File>Startup.pss</File>
     <File>mame_scr\mame_scr.ps1</File>
   </OpenFiles>
 </ProjectState>
