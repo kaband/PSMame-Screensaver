@@ -33,7 +33,7 @@ Get latest release from https://github.com/kaband/Mame-Screensaver/releases
  * Rom Path* - Path to directory that contains rom files used by Mame.  ex. c:\mame\roms
  * RomPath List* - Path to file that contains a list of rom names.  Should include file name. ex. c:\mame\romlist.txt  
    * mamesscfg.exe includes a button to generate the list.  The list consists of the files from the roms directory with the extension removed (ex. thisgame.zip becomes thisgame).  If you are using a merged set, it will only capture the primary game.
-   * I recommend using Romlister instead to generate your list of roms.  Export from romlister in csv format with only the name of the rom included. Use that file as your romlist source.  https://www.waste.org/~winkles/ROMLister/
+   * I recommend using Romlister instead to generate your list of roms.  Export from romlister in txt format with only the name of the rom included. Use that file as your romlist source.  https://www.waste.org/~winkles/ROMLister/
  * Config Path - Location of the MAME config files. ex. c:\mame\cfg
  * Snapshot Path - Location of the MAME snapshots. ex. c:\mame\snapshots
  * NVRAM Path - Location of the MAME NVRAM files. ex. c:\mame\nvram
