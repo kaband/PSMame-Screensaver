@@ -22,10 +22,10 @@ Get latest release from https://github.com/kaband/Mame-Screensaver/releases
   * Should be launched as administrator in order to edit mame_scr.ini file copied into c:\windows\system32
 * Once configuration is set. Select Screensaver tab.
 * Set Screensaver Timeout value and click [Setup Screensaver] button
-* Done.  See details below to understand options.
+* Done.  See Configuration tab and Screensaver tab for details.
 
 **Usage**
- * When the screensaver is running, mame functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
+ * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
  * In order to exit the screensaver use the key mapped to exit mame.  Escape key is the default mapping to exit mame.
   
 **Configuration Tab**  
