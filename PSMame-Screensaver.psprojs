@@ -1,0 +1,14 @@
+﻿<ProjectState>
+  <Version>1.0</Version>
+  <FileID>997ac8aa-625e-47a1-8f81-8acb5c7668f6</FileID>
+  <OpenFolders>
+    <Folder>psmamesscfg</Folder>
+    <Folder>psmamess</Folder>
+  </OpenFolders>
+  <OpenFiles>
+    <File>psmamesscfg\MainForm.psf</File>
+    <File>psmamesscfg\Globals.ps1</File>
+    <File>psmamess\psmamess.ini</File>
+    <File>psmamess\psmamess.ps1</File>
+  </OpenFiles>
+</ProjectState>
