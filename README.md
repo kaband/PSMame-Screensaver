@@ -13,9 +13,9 @@ Mame-Screensaver is written in Powershell and then compiled to an .exe (.scr) wi
 **Installation**
 * Download the mamesaver.zip file with the binaries inside.  
 Get latest release from https://github.com/kaband/Mame-Screensaver/releases
-  * mame_scr.scr - Screensaver file  
-  * mamesscfg.exe - Configuration utility for screensaver  
-  * mame_scr.ini - Configuration itself
+  * psmamess.scr - Screensaver file  
+  * psmamesscfg.exe - Configuration utility for screensaver  
+  * psmamess.ini - Configuration itself
 * Extract zip to directory of your choosing
 * Copy mame_scr.scr and mame_scr.ini to the c:\windows\system32 directory
 * Run the mamesscfg.exe file to launch the configuration utility - this will put your configuration settings into the .ini file
