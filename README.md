@@ -11,7 +11,7 @@ Mame-Screensaver is written in Powershell and then compiled to an .exe (.scr) wi
   * Windows 10 meets these requirements out of the box.
 
 **Installation**
-* Download the mamesaver.zip file with the binaries inside.  
+* Download the psmamess.zip file with the binaries inside.  
 Get latest release from https://github.com/kaband/Mame-Screensaver/releases
   * psmamess.scr - Screensaver file  
   * psmamesscfg.exe - Configuration utility for screensaver  
