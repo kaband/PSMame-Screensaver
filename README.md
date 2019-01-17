@@ -12,7 +12,7 @@ PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) 
 
 **Installation**
 * Download the psmamess.zip file with the binaries inside.  
-Get latest release from https://github.com/kaband/Mame-Screensaver/releases
+Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
   * psmamess.scr - Screensaver file  
   * psmamesscfg.exe - Configuration utility for screensaver  
   * psmamess.ini - Configuration itself
