@@ -19,7 +19,7 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 * Extract zip to directory of your choosing
 * Copy psmamess.scr and psmamess.ini to the c:\windows\system32 directory
 * Run the psmamesscfg.exe file to launch the configuration utility - this will put your configuration settings into the .ini file
-  * Should be launched as administrator in order to edit mame_scr.ini file copied into c:\windows\system32
+  * Should be launched as administrator in order to edit psmamess.ini file in the c:\windows\system32 directory
 * Once configuration is set. Select Screensaver tab.
 * Set Screensaver Timeout value and click [Setup Screensaver] button
 * Done.
