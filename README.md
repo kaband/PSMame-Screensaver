@@ -57,4 +57,4 @@ Get latest release from https://github.com/kaband/Mame-Screensaver/releases
 **Converting ps1 to exe (or scr)**  
  * You can convert the powershell scripts into executable files yourself.
  * I've tested using PS2EXE.  Get it here: https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5
-   * ps2exe.ps1 -inputFile .\mame_scr.ps1 -outputFile .\mame_scr.scr -runtime40 -x64 -Sta -verbose
+   * ps2exe.ps1 -inputFile .\psmamess.ps1 -outputFile .\psmamess.scr -runtime40 -x64 -Sta -verbose
