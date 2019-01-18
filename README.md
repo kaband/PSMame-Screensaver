@@ -1,5 +1,5 @@
 # PSMame-Screensaver
-This is a screensaver which uses MAME to run roms in an attract mode fashion.  A rom is selected at random, mame executes the rom and plays it for a set runtime.  Once the runtime is reached, mame exits and repeat!  
+This is a screensaver which uses MAME to run arcade games in an attract mode fashion.  A game is selected at random, mame executes the game and plays it for a set runtime.  Once the runtime is reached, mame exits and repeat!  
   
 PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home MAME cabinet. I initially wrote it 3 years ago and wanted to share.   I cleaned it up, created a configuration exe and put it here on github.  
 
