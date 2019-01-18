@@ -26,7 +26,7 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 * Done.
 * See Configuration tab and Screensaver tab for details.
 
- **Manually Configuring psmamess**
+ **Manually Configuration**  
 There is no reason that you have to use the psmamesscfg.exe program in order to configure the screensaver.  The paths within the .ini file can be easily edited with notepad and the screensaver settings can be set within the Operating System itself.  The psmamecfgss.exe is there to give you less manual steps.
 
 **Usage**
