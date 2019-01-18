@@ -1,10 +1,10 @@
 # PSMame-Screensaver
 This is a screensaver which uses MAME to run arcade games in an attract mode fashion.  A game is selected at random, mame executes the game and plays it for a set runtime.  Once the runtime is reached, mame exits and repeat!  
   
-PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home MAME cabinet. I initially wrote it 3 years ago and wanted to share.   I cleaned it up, created a configuration exe and put it here on github.  
+PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home MAME cabinet. I initially wrote it 3 years ago and wanted to share.   I cleaned it up, created a configuration program addon and posted it to github.  
 
-Why use powershell?  Why not use it!  Mame does all the heavy lifting and the script is lightweight.  I wanted something straight forward and easy to understand.  I felt Powershell was a good candidate for my needs. 
- 
+Why use Powershell?  Why not! I wanted something straight forward and easy to understand.  Powershell fit the bill.
+
 **Prerequisites**  
 * .NET Framework 4.5.2 (or higher) - https://www.microsoft.com/en-us/download/details.aspx?id=42643  
 * Powershell 5.0/5.1 - https://www.microsoft.com/en-us/download/details.aspx?id=54616 
@@ -29,8 +29,8 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 * Done.
 * See Configuration tab and Screensaver tab for details.
 
- **Manually Configuration**  
-There is no reason that you have to use the psmamesscfg.exe program in order to configure the screensaver.  The paths within the .ini file can be easily edited with notepad and the screensaver settings can be set within the Operating System itself.  The psmamecfgss.exe is there to give you less manual steps.
+ **Manual Configuration**  
+There is no reason that you have to use the psmamesscfg.exe program in order to configure the screensaver.  The paths within the .ini file can be easily edited with notepad and the screensaver settings can be set within the Operating System itself.  The psmamecfgss.exe is there to make it a bit easier.
 
 **Usage**
  * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
