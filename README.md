@@ -1,7 +1,8 @@
 # PSMame-Screensaver
 This is a screensaver which uses MAME to run roms in an attract mode fashion.  A rom is selected at random, mame executes the rom and plays it for a set runtime.  Once the runtime is reached, mame exits and repeat!  
   
-PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home MAME cabinet.
+PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home MAME cabinet. I initially wrote it 3 years ago and wanted to share.   I cleaned it up, created a configuration exe and put it here on github.  
+Why use powershell?  Why not use it!  Mame does all the heavy lifting and the script is lightweight.  I wanted something straight forward and easy to understand.  I felt Powershell was a good candidate for my needs. 
  
 **Prerequisites**  
 * .NET Framework 4.5.2 (or higher) - https://www.microsoft.com/en-us/download/details.aspx?id=42643  
@@ -25,10 +26,13 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 * Done.
 * See Configuration tab and Screensaver tab for details.
 
+ **Manually Configuring psmamess**
+ * There is no reason that you have to use the psmamesscfg.exe program in order to configure the screensaver.  The paths within the .ini file can be easily edited with notepad and the screensaver settings can be set within the Operating System itself.  The psmamecfgss.exe is there to give you less manual steps.
+
 **Usage**
  * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
- * In order to exit the screensaver use the key mapped to exit mame.  Escape key is the default mapping to exit mame.
-  
+ * In order to exit the screensaver use the key mapped to exit mame.  Escape key is the default mapping to exit mame.  
+   
 **Configuration Tab**  
  * Mame Path* - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
  * Rom Path* - Path to directory that contains rom files used by Mame.  ex. c:\mame\roms
@@ -55,7 +59,7 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
  * [Generate Rom List] Button - Creates txt file list of rom names.  List is based of off rom path and saved to the rom list path directory.
 
 **Compiling ps1 to exe (or scr)**  
-I used Sapien's Powershell Studio to write the powershell scripts, create the forms used in the psmamesscfg.exe and to compile it all to exe's.  It's great software if you write a lot of powershell scripts and I highly recommend it, but it's not inexpensive.  You can compile the screensaver script to an exe yourself w/o purchasing any software using ps2exe.ps1  
+I use Sapien's Powershell Studio to write the powershell scripts, create the forms used in the psmamesscfg.exe and to compile it all to exe's.  It's great software if you write a lot of powershell scripts and I highly recommend it, but it's not inexpensive.  You can compile the screensaver script to an exe yourself w/o purchasing any software using ps2exe.ps1  
   
  * You can convert the powershell scripts into executable files yourself.
  * I've tested using PS2EXE.  Get it here: https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5
