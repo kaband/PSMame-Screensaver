@@ -27,7 +27,7 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 * See Configuration tab and Screensaver tab for details.
 
  **Manually Configuring psmamess**
- * There is no reason that you have to use the psmamesscfg.exe program in order to configure the screensaver.  The paths within the .ini file can be easily edited with notepad and the screensaver settings can be set within the Operating System itself.  The psmamecfgss.exe is there to give you less manual steps.
+There is no reason that you have to use the psmamesscfg.exe program in order to configure the screensaver.  The paths within the .ini file can be easily edited with notepad and the screensaver settings can be set within the Operating System itself.  The psmamecfgss.exe is there to give you less manual steps.
 
 **Usage**
  * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
