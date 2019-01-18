@@ -7,7 +7,8 @@ Why use powershell?  Why not use it!  Mame does all the heavy lifting and the sc
  
 **Prerequisites**  
 * .NET Framework 4.5.2 (or higher) - https://www.microsoft.com/en-us/download/details.aspx?id=42643  
-* Powershell 5.0/5.1 - https://www.microsoft.com/en-us/download/details.aspx?id=54616 (part of Windows Management Framework - be sure to install .net first)
+* Powershell 5.0/5.1 - https://www.microsoft.com/en-us/download/details.aspx?id=54616 
+  * This is part of Windows Management Framework.  Be sure to install .NET first
 * MAME - https://www.mamedev.org/  
 * Windows OS - Windows 10, 8, or 7 should work fine as long as .NET 4.5.2 and Powershell 5.0/5.1 from Windows Management Framework is installed.  
   * Windows 10 meets these requirements out of the box.
