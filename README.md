@@ -54,7 +54,7 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
  * [Remove Screensaver] Button - Removes mame screensaver as default and sets blank screen as new default.
  * [Generate Rom List] Button - Creates txt file list of rom names.  List is based of off rom path and saved to the rom list path directory.
 
-**Compiling ps1 to exe (or scr)**
+**Compiling ps1 to exe (or scr)**  
 I used Sapien's Powershell Studio to write the powershell scripts, create the forms used in the psmamesscfg.exe and to compile it all to exe's.  It's great software if you write a lot of powershell scripts and I highly recommend it, but it's not inexpensive.  You can compile the screensaver script to an exe yourself w/o purchasing any software using ps2exe.ps1  
   
  * You can convert the powershell scripts into executable files yourself.
