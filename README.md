@@ -57,12 +57,16 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
  
  \* = required
 
-**Screensaver Tab**
+**Screensaver Tab**  
+  
+  <img src="images/screensaver_tab.png" alt="alt text" width="400">  
+  
  * Screensaver timeout - Amount of idle time in seconds before screensaver starts.
  * [Setup Screensaver] Button - Click this button once you are ready to enable the mame screensaver as the default.
    * Enables screensaver, sets mame screensaver as active screensaver and sets screensaver timeout value.
  * [Remove Screensaver] Button - Removes mame screensaver as default and sets blank screen as new default.
  * [Generate Rom List] Button - Creates txt file list of rom names.  List is based of off rom path and saved to the rom list path directory.
+ * [Test Screensaver] Button - You can test the screensaver and limit the amount of games it rotates through for the test only.
 
 **Compiling ps1 to exe (or scr)**  
 I use Sapien's Powershell Studio to write the powershell scripts, create the forms used in the psmamesscfg.exe and to compile it all to exe's.  It's great software if you write a lot of powershell scripts and I highly recommend it, but it's not inexpensive.  You can compile the screensaver script to an exe yourself w/o purchasing any software using PS2EXE.
