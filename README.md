@@ -38,7 +38,8 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
    
 **Configuration Tab**  
   
-<img src="images/config_tab.png" alt="alt text" width="400">
+<img src="images/config_tab.png" alt="alt text" width="400">  
+
  * Mame Path* - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
  * Rom Path* - Path to directory that contains rom files used by Mame.  ex. c:\mame\roms
  * RomPath List* - Path to file that contains a list of rom names.  Should include file name. ex. c:\mame\romlist.txt  
