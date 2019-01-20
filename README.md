@@ -5,7 +5,7 @@ PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) 
 
 Why use Powershell?  Why not! I wanted something straight forward and easy to understand.  Powershell fit the bill.
 
-**Prerequisites**  
+## Prerequisites
 * .NET Framework 4.5.2 (or higher) - https://www.microsoft.com/en-us/download/details.aspx?id=42643  
 * Powershell 5.0/5.1 - https://www.microsoft.com/en-us/download/details.aspx?id=54616 
   * This is part of Windows Management Framework.  Be sure to install .NET first.
@@ -14,7 +14,7 @@ Why use Powershell?  Why not! I wanted something straight forward and easy to un
 * Windows OS - Windows 10, 8, or 7 should work fine as long as .NET 4.5.2 and Powershell 5.0/5.1 from Windows Management Framework is installed.  
   * Windows 10 meets these requirements out of the box.
 
-**Installation**
+## Installation
 * Download the psmamess.zip file with the binaries inside.  
 Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
   * psmamess.scr - Screensaver file  
@@ -24,19 +24,15 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 * Copy psmamess.scr and psmamess.ini to the c:\windows\system32 directory
 * Run the psmamesscfg.exe file to launch the configuration utility - this will put your configuration settings into the .ini file
   * Should be launched as administrator in order to edit psmamess.ini file in the c:\windows\system32 directory
-* Once configuration is set. Select Screensaver tab.
-* Set Screensaver Timeout value and click [Setup Screensaver] button
+* Set your configuration in config tab and click save button. (See Configuration tab section below for details)
+* Once configuration is set. Select Screensaver tab. (See Configuration Tab section below for details)
+* Set Screensaver Timeout value and click [Setup Screensaver] button to add the screensaver to the OS and set it as default. (See Screensaver Tab section below for details)
 * Done.
-* See Configuration tab and Screensaver tab for details.
 
- **Manual Configuration**  
+## Manual Configuration
 There is no reason that you have to use the psmamesscfg.exe program in order to configure the screensaver.  The paths within the .ini file can be easily edited with notepad and the screensaver settings can be set within the Operating System itself.  The psmamecfgss.exe is there to make it a bit easier.
 
-**Usage**
- * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
- * In order to exit the screensaver use the key mapped to exit mame.  Escape key is the default mapping to exit mame.  
-   
-**Configuration Tab**  
+## Configuration Tab  
   
 <img src="images/config_tab.png" alt="alt text" width="400">  
 
@@ -57,17 +53,21 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
  
  \* = required
 
-**Screensaver Tab**  
+## Screensaver Tab  
   
   <img src="images/screensaver_tab.png" alt="alt text" width="400">  
   
- * Screensaver timeout - Amount of idle time in seconds before screensaver starts.
+ * **Screensaver timeout** - Amount of idle time in seconds before screensaver starts.
  * [Setup Screensaver] Button - Click this button once you are ready to enable the mame screensaver as the default.
    * Enables screensaver, sets mame screensaver as active screensaver and sets screensaver timeout value.
  * [Remove Screensaver] Button - Removes mame screensaver as default and sets blank screen as new default.
  * [Generate Rom List] Button - Creates txt file list of rom names.  List is based of off rom path and saved to the rom list path directory.
  * [Test Screensaver] Button - You can test the screensaver and limit the amount of games it rotates through for the test only.
 
+## Usage
+ * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
+ * In order to exit the screensaver use the key mapped to exit mame.  Escape key is the default mapping to exit mame.  
+   
 **Compiling ps1 to exe (or scr)**  
 I use Sapien's Powershell Studio to write the powershell scripts, create the forms used in the psmamesscfg.exe and to compile it all to exe's.  It's great software if you write a lot of powershell scripts and I highly recommend it, but it's not inexpensive.  You can compile the screensaver script to an exe yourself w/o purchasing any software using PS2EXE.
   
