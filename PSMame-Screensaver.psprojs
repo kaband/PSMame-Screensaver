@@ -10,5 +10,6 @@
     <File>psmamesscfg\Globals.ps1</File>
     <File>psmamess\psmamess.ini</File>
     <File>psmamess\psmamess.ps1</File>
+    <File>Startup.pss</File>
   </OpenFiles>
 </ProjectState>

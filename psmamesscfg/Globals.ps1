@@ -4,7 +4,7 @@
 	 Created with:  		PowerShell Studio 2019 5.6.156
 	 Created by:			Justin Baker
 	 Filename:			Globals.ps1
-	 Website:				https://github.com/kaband/Mame-Screensaver
+	 Website:				https://github.com/kaband/PSMame-Screensaver
 	===========================================================================
 #>
 
@@ -44,7 +44,7 @@ function Get-ini
 		[string]$inifile
 	)
 	$config = Get-Content $inifile
-	$cfgattributes = @("mamepath", "rompath", "romlistpath", "configpath", "snapshotpath", "nvrampath", "arguments", "runtime", "volume")
+	$cfgattributes = @("mamepath", "rompath", "romlistpath", "configpath", "snapshotpath", "nvrampath", "arguments", "runtime", "volume","masterxml","destinationxml")
 	$cfg = @{ }
 	
 	foreach ($line in $config)
@@ -100,6 +100,8 @@ function Load-Defaults
 	$textboxConfigPath.Text = "c:\mame\cfg"
 	$textboxsnapshotpath.Text = "c:\mame\snaps"
 	$textboxnvrampath.Text = "c:\mame\nvram"
+	$textboxMasterXML.Text = $null
+	$textboxDestinationXML.Text = $null
 	$textboxArguments.Text = $null
 	$numericruntime.Value = 120
 	$numericVolume.Value = -32
@@ -113,6 +115,8 @@ function Load-Defaults
 [string]$snapshotpath = $null
 [string]$nvrampath = $null
 [string]$inifile = $null
+[string]$masterxml = $null
+[string]$destinationxml = $null
 [int]$runtime = 120
 [int]$volume = 0
 [string]$sspath = "c:\Windows\System32\psmamess.scr"
