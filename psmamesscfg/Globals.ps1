@@ -83,6 +83,12 @@ function Get-ini
 					"volume" {
 						$cfg.volume = $Matches[2]
 					}
+					"masterxml" {
+						$cfg.masterxml = $Matches[2]
+					}
+					"destinationxml" {
+						$cfg.destinationxml = $Matches[2]
+					}
 				}
 				break
 			}
