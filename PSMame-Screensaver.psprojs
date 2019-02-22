@@ -6,10 +6,7 @@
     <Folder>psmamess</Folder>
   </OpenFolders>
   <OpenFiles>
-    <File>psmamesscfg\MainForm.psf</File>
-    <File>psmamesscfg\Globals.ps1</File>
-    <File>psmamess\psmamess.ini</File>
     <File>psmamess\psmamess.ps1</File>
-    <File>Startup.pss</File>
+    <File>psmamesscfg\MainForm.psf</File>
   </OpenFiles>
 </ProjectState>
