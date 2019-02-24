@@ -42,7 +42,6 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
    * PSMame-Screensaver Configurator includes a button to generate the list.  The list consists of the files from the roms directory with the extension removed (ex. thisgame.zip becomes thisgame).  If you are using a merged set, it will only capture the primary game.
    * I recommend using Romlister instead to generate your list of roms.  Export from romlister in txt format with only the name of the rom included. Use that file as your rom path list source.  https://www.waste.org/~winkles/ROMLister/
  * Config Path - Location of the MAME config files. ex. c:\mame\cfg
- * Snapshot Path - Location of the MAME snapshots. ex. c:\mame\snapshots
  * NVRAM Path - Location of the MAME NVRAM files. ex. c:\mame\nvram
  * Run Time - Amount of time in seconds to run ROM.
  * Volume - Volume of running ROM.
