@@ -32,9 +32,9 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 ## Manual Configuration
 There is no reason that you have to use the psmamesscfg.exe program in order to configure the screensaver.  The paths within the .ini file can be easily edited with notepad and the screensaver settings can be set within the Operating System itself.  The psmamecfgss.exe is there to make it a bit easier.
 
-## Configuration Tab  
+## Path Setup Tab (Mame)
   
-<img src="images/config_tab.png" alt="alt text" width="400">  
+<img src="images/path_tab.png" alt="alt text" width="400">  
 
  * Mame Path* - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
  * Rom Path* - Path to directory that contains rom files used by Mame.  ex. c:\mame\roms
