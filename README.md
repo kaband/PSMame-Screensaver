@@ -53,6 +53,10 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
  
  \* = required
 
+## Path Setup Tab (Launchbox)
+  
+<img src="images/path_launchbox.png" alt="alt text" width="400">  
+
 ## Screensaver Tab  
   
   <img src="images/screensaver_tab.png" alt="alt text" width="400">  
