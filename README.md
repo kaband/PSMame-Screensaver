@@ -1,7 +1,7 @@
 # PSMame-Screensaver
 This is a screensaver which uses MAME to run arcade games in an attract mode fashion.  A game is selected at random, mame executes the game and plays it for a set runtime.  Once the runtime is reached, mame exits and repeat!  
   
-PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home MAME cabinet. I initially wrote it 3 years ago and wanted to share.   I cleaned it up, created a configuration program addon and posted it to github.  
+PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home MAME cabinet. I wrote the first version in 2015 and wanted to share.  It's been cleaned up, a configuration program added and the entire project posted here on github.
 
 Why use Powershell?  Why not! I wanted something straight forward and easy to understand.  Powershell fit the bill.
 
