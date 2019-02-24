@@ -25,9 +25,9 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 * Run the psmamesscfg.exe file to launch the configuration utility - this will put your configuration settings into the .ini file
   * Should be launched as administrator in order to edit psmamess.ini file in the c:\windows\system32 directory
   * Configurator will now prompt for administrator elevation
-* Define your paths in path setup tab and click save button. See Path Setup tab (Mame) and Path Setup tab (Launchbox) section below for details.
+* Define your paths in path setup tab and click save button. See **Path Setup tab (Mame)** and **Path Setup tab (Launchbox)** section below for details.
 * Once the paths are set. Select Screensaver tab.
-* Set Screensaver Timeout value and click [Setup Screensaver] button to add the screensaver to the OS and set it as default. See Screensaver Tab sections below for details.
+* Set Screensaver Timeout value and click [Setup Screensaver] button to add the screensaver to the OS and set it as default. See **Screensaver Tab** sections below for details.
 * Done.
 
 ## Manual Configuration
