@@ -14,7 +14,7 @@ Why use Powershell?  Why not! I wanted something straight forward and easy to un
 * Windows OS - Windows 10, 8, or 7 should work fine as long as .NET 4.5.2 and Powershell 5.0/5.1 from Windows Management Framework is installed.  
   * Windows 10 meets these requirements out of the box.
 
-## Installation
+## Installation & Setup
 * Download the psmamess.zip file with the binaries inside.  
 Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
   * psmamess.scr - Screensaver file  
@@ -24,9 +24,9 @@ Get latest release from https://github.com/kaband/PSMame-Screensaver/releases
 * Copy psmamess.scr and psmamess.ini to the c:\windows\system32 directory
 * Run the psmamesscfg.exe file to launch the configuration utility - this will put your configuration settings into the .ini file
   * Should be launched as administrator in order to edit psmamess.ini file in the c:\windows\system32 directory
-* Set your configuration in config tab and click save button. (See Configuration tab section below for details)
-* Once configuration is set. Select Screensaver tab. (See Screensaver Tab section below for details)
-* Set Screensaver Timeout value and click [Setup Screensaver] button to add the screensaver to the OS and set it as default. (See Screensaver Tab section below for details)
+* Define your paths in path setup tab and click save button. See Path Setup tab (Mame) and Path Setup tab (Launchbox) section below for details.
+* Once the paths are set. Select Screensaver tab.
+* Set Screensaver Timeout value and click [Setup Screensaver] button to add the screensaver to the OS and set it as default. See Screensaver Tab sections below for details.
 * Done.
 
 ## Manual Configuration
