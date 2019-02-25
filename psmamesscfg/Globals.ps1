@@ -44,7 +44,7 @@ function Get-ini
 		[string]$inifile
 	)
 	$config = Get-Content $inifile
-	$cfgattributes = @("mamepath", "rompath", "romlistpath", "configpath", "snapshotpath", "nvrampath", "arguments", "runtime", "volume","masterxml","destinationxml")
+	$cfgattributes = @("mamepath", "rompath", "romlistpath", "configpath", "nvrampath", "arguments", "masterplaystlist", "destinationplaylist", "runtime", "volume","masterplaylist","destinationplaylist")
 	$cfg = @{ }
 	
 	foreach ($line in $config)
@@ -68,9 +68,6 @@ function Get-ini
 					"configpath" {
 						$cfg.configpath = $Matches[2]
 					}
-					"snapshotpath" {
-						$cfg.snapshotpath = $Matches[2]
-					}
 					"nvrampath" {
 						$cfg.nvrampath = $Matches[2]
 					}
@@ -83,11 +80,11 @@ function Get-ini
 					"volume" {
 						$cfg.volume = $Matches[2]
 					}
-					"masterxml" {
-						$cfg.masterxml = $Matches[2]
+					"masterplaylist" {
+						$cfg.masterplaylist = $Matches[2]
 					}
-					"destinationxml" {
-						$cfg.destinationxml = $Matches[2]
+					"destinationplaylist" {
+						$cfg.destinationplaylist = $Matches[2]
 					}
 				}
 				break
@@ -104,10 +101,9 @@ function Load-Defaults
 	$textboxROMPath.Text = "c:\mame\roms"
 	$textboxromlistpath.Text = "c:\mame\romlist.txt"
 	$textboxConfigPath.Text = "c:\mame\cfg"
-	$textboxsnapshotpath.Text = "c:\mame\snaps"
 	$textboxnvrampath.Text = "c:\mame\nvram"
-	$textboxMasterXML.Text = $null
-	$textboxDestinationXML.Text = $null
+	$textboxMasterplaylist.Text = $null
+	$textboxDestinationplaylist.Text = $null
 	$textboxArguments.Text = $null
 	$numericruntime.Value = 120
 	$numericVolume.Value = -32
@@ -118,11 +114,10 @@ function Load-Defaults
 [string]$rompath = $null
 [string]$romlistpath = $null
 [string]$configpath = $null
-[string]$snapshotpath = $null
 [string]$nvrampath = $null
 [string]$inifile = $null
-[string]$masterxml = $null
-[string]$destinationxml = $null
+[string]$masterplaylist = $null
+[string]$destinationplaylist = $null
 [int]$runtime = 120
 [int]$volume = 0
 [string]$sspath = "c:\Windows\System32\psmamess.scr"

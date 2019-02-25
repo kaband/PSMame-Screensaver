@@ -8,5 +8,6 @@
   <OpenFiles>
     <File>psmamess\psmamess.ps1</File>
     <File>psmamesscfg\MainForm.psf</File>
+    <File>Startup.pss</File>
   </OpenFiles>
 </ProjectState>
