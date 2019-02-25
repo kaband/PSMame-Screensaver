@@ -35,7 +35,7 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
 
 ## Path Setup Tab (Mame)
   
-<img src="images/path_tab.png" alt="alt text" width="400">  
+<img src="images/path_tab.png" alt="alt text" width="500">  
 
  * Mame Path* - Path to mame executable.  Should include executable name.  ex. c:\mame\mame64.exe  
  * Rom Path* - Path to directory that contains rom files used by Mame.  ex. c:\mame\roms
@@ -55,7 +55,7 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
 
 ## Path Setup Tab (Launchbox)
   
-<img src="images/path_launchbox.png" alt="alt text" width="400">
+<img src="images/path_launchbox.png" alt="alt text" width="500">
 
 The masterxml and destinationxml are for those who run mame via launchbox https://www.launchbox-app.com/. I use launchbox as the frontend for my mame cabinet and couldn't be happier. I've gone through a number of frontends over the years, since the very first iteration of my MAME cabinet in late 1999/early 2000 and launchbox is by far the best one. It's well worth a lifetime license.  
 
