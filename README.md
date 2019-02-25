@@ -59,9 +59,8 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
 
 The masterxml and destinationxml are for those who run mame via launchbox https://www.launchbox-app.com/. I use launchbox as the frontend for my mame cabinet and couldn't be happier. I've gone through a number of frontends over the years, since the very first iteration of my MAME cabinet in late 1999/early 2000 and launchbox is by far the best one. It's well worth a lifetime license.  
 
-I have my mame cabinet running most of the time. I pass by it often in its location and enjoy seeing what game is currently running.  Many times I see a new game running that I want to try.  I wanted a quick, easy way to tag a game I saw running for play at a later time.
-
-Here's how it works:  
+I have my mame cabinet running most of the time. I pass by it often in its location and enjoy seeing what game is currently running.  Many times I see a new game running that I want to try.  I wanted a quick, easy way to tag a game I saw running for play at a later time.  Here's how it works:  
+ 
 When a Mame game is running, you can take a screenshot at any time.  Bind the take screenshot key to an accessible key.  If you press that key/button while a game is running a screenshot is created in a temp dir.  When the game reaches the end of its runtime, the screensaver will look for any screenshots taken during the run of the game before moving on to the next game. If one was taken then the screensaver will get the game info from the master playlist xml file and add the game to the playlist defined in destination playlist.  In my case, I have a master playlist I created called arcade.xml which contains all the mame games in my collection and a destination playlist called games2try.xml that will have any game I screenshot added to it.
 
 ## Screensaver Tab  
