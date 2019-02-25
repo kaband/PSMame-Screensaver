@@ -55,7 +55,13 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
 
 ## Path Setup Tab (Launchbox)
   
-<img src="images/path_launchbox.png" alt="alt text" width="400">  
+<img src="images/path_launchbox.png" alt="alt text" width="400">
+
+The masterxml and destinationxml are for those who run mame via launchbox https://www.launchbox-app.com/. I use launchbox as the frontend for my mame cabinet and couldn't be happier.  It's well worth a lifetime license.  I've gone through a number of them over the years since the very first iteration of my MAME cabinet in late 1999/early 2000 and launchbox is by far the best one.  
+
+I have my cabinet running most of the time.  I pass by it often in its location and enjoy seeing what game is currently running.  Many times I see a new game running that I want to try.  I wanted a way to tag a game I saw running in the screensaver for play at a later time.  Since, I use launchbox some integration with it would be ideal.  Here's what I came up.  
+
+When a Mame game is running, you can take a screenshot at any time.  I bound take screenshot to one of my cabinet's buttons.  If I press that button while a game is running a screenshot is created.  When the game exits, the screensaver will look for any screenshots taken during the run of the game. If one was taken then the screensaver will get the game info from the master playlist xml file and add the game to the playlist I've defined in destination playlist.  In my case, I have a master playlist called arcade.xml which contains all the mame games in my collection and a destination playlist called games2try.xml that will get the screenshoted game.
 
 ## Screensaver Tab  
   
