@@ -3,7 +3,7 @@ This is a screensaver which uses MAME to run arcade games in an attract mode fas
   
 PSMame-Screensaver is written in Powershell and then compiled to an .exe (.scr) with a powershell wrapper.  It was written to run on my home MAME cabinet. I wrote the first version in 2015 and wanted to share.  It's been cleaned up, a configuration program added and the entire project posted here on github.
 
-Why use Powershell?  Why not! It's straight forward and easy to understand.  Powershell fit the bill.
+Why use Powershell?  Why not! It's straight forward and easy to understand.
 
 ## Prerequisites
 * .NET Framework 4.5.2 (or higher) - https://www.microsoft.com/en-us/download/details.aspx?id=42643  
