@@ -78,7 +78,8 @@ When a Mame game is running, you can take a screenshot at any time.  Bind the ta
  * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
  * In order to exit the screensaver use the key mapped to exit mame.  Escape key is the default mapping to exit mame.  
    
-**Compiling ps1 to exe (or scr)**  
+## Compiling
+Compiling is optional.  I have uploaded compiled versions of the screensaver and the configurator software.  However, if you want to customize the script or just do the compiles yourself then it's easily done.  
 I use Sapien's Powershell Studio to write the powershell scripts, create the forms used in the psmamesscfg.exe and to compile it all to exe's.  It's great software if you write a lot of powershell scripts and I highly recommend it, but it's not inexpensive.  You can compile the screensaver script to an exe yourself w/o purchasing any software using PS2EXE.
   
  * I've tested using PS2EXE.  Get it here: https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5
