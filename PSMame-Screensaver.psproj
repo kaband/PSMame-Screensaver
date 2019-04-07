@@ -12,5 +12,6 @@
     <File Build="0" Shared="True" ReferenceFunction="Invoke-Globals_ps1">psmamesscfg\Globals.ps1</File>
     <File Build="0" ReferenceFunction="Show-MainForm_psf">psmamesscfg\MainForm.psf</File>
     <File Build="2">psmamess\psmamess.ini</File>
+    <File Build="2">psmamess\psmamess.ps1.psbuild</File>
   </Files>
 </Project>
