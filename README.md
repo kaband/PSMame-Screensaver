@@ -44,8 +44,8 @@ There is no reason that you have to use the psmamesscfg.exe program in order to 
    * I recommend using Romlister instead to generate your list of roms.  Export from romlister in txt format with only the name of the rom included. Use that file as your rom path list source.  https://www.waste.org/~winkles/ROMLister/
  * Config Path - Location of the MAME config files. ex. c:\mame\cfg
  * NVRAM Path - Location of the MAME NVRAM files. ex. c:\mame\nvram
- * Run Time - Amount of time in seconds to run ROM.
- * Volume - Volume of running ROM.
+ * Run Time - Amount of time in seconds to run game.
+ * Volume - Volume of running game.
  * Arguments - Any additional arguments you want to pass to mame executable.
  * Save button - Click this button once your configuration is set to save your settings.
  * Load Defaults button - Resets all settings to default, but will not take effect until it is saved. 
@@ -75,12 +75,12 @@ When a Mame game is running, you can take a screenshot at any time with the scre
  * **[Test Screensaver] Button** - You can test the screensaver and limit the amount of games it rotates through for the test only.
 
 ## Usage
- * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the rom.
- * In order to exit the screensaver use the key mapped to exit mame.  Escape key is the default mapping to exit mame.  
+ * When the screensaver is running, MAME functions normally.  You can play the game that is running, but once the runtime value is reached it will exit the game.
+ * In order to exit the screensaver use the key mapped to exit mame.  The escape key is the default key mapped to exit.  
    
 ## Compiling
 Compiling is optional.  There are compiled versions of the screensaver and the configurator software in the releases section.  However, if you want to customize the script or just do the compiles yourself then it's easily done.  
 I use Sapien's Powershell Studio to write the powershell scripts, create the forms used in the psmamesscfg.exe and to compile it all to exe's.  It's great software if you write a lot of powershell scripts and I highly recommend it, but it's not inexpensive.  You can compile the screensaver script to an exe yourself w/o purchasing any software using PS2EXE.
   
- * I've tested using PS2EXE.  Get it here: https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5
-   * ps2exe.ps1 -inputFile .\psmamess.ps1 -outputFile .\psmamess.scr -runtime40 -x64 -Sta -verbose
+ * Get it here: https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5
+   * You can use the following to compile: ps2exe.ps1 -inputFile .\psmamess.ps1 -outputFile .\psmamess.scr -runtime40 -x64 -Sta -verbose
