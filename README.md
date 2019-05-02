@@ -61,7 +61,7 @@ The master playlist and destination playlist fields are for those who run mame v
 
 I keep my mame cabinet running most of the time. I pass by it often in its location and enjoy seeing what game is currently playing.  Many times I see a new game to try and I wanted a quick, easy way to tag a game for play at a later time.  Here's how it works:  
  
-When a Mame game is running, you can take a screenshot at any time with the screenshot key.  When the game reaches the end of its runtime, the screensaver will look for any screenshots taken during the run of the game. If one was taken, it will get the game info from the master playlist xml file and add the game to the destination playlist.  In the screenshot above, there is a master playst called arcade.xml which contains all the mame games in a collection and a destination playlist called TryMe.xml that will have any games that had a screenshot taken.
+When a Mame game is running, you can take a screenshot at any time with the screenshot key.  When the game reaches the end of its runtime, the screensaver will look for any screenshots taken during the run of the game. If one was taken, it will get the game info from the master playlist xml file and add the game to the destination playlist.  In the screenshot above, there is a master playlist called arcade.xml which contains all the mame games in a collection and a destination playlist called TryMe.xml that will have any games that had a screenshot taken during its runtime.
 
 ## Screensaver Tab  
   
