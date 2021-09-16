@@ -14,7 +14,7 @@ Why use Powershell?  Why not! It's straight forward and easy to understand.
 * Powershell 5.0/5.1 - https://www.microsoft.com/en-us/download/details.aspx?id=54616 
   * This is part of Windows Management Framework.  Be sure to install .NET first.
   * To check your version of powershell, launch Windows Powershell and type: "$psversiontable" (no quotes).  The very first entry in the list should tell you the PSVersion.  This should be 5.x.
-  * <img src="images/psversiontable.png" alt="alt text" width="600">
+  * <img src="images/psversiontable.png" width="600">
 * MAME - https://www.mamedev.org/  
 
 ## Installation & Setup
